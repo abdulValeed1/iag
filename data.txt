@@ -41,3 +41,9 @@ Very high accuracy required (above 95%)
 Moderate accuracy required (80-95%)
 Some tolerance for inaccuracies (60-80%)
 High tolerance for inaccuracies (below 60%)
+{type_of_use :  everyday/augment/transform,
+             type_of_app :  content/delivery/triage/end-to-end decisions, 
+             related_focus_areas :  [focus_area_1, focus_area_2 ...  ] ,
+             suggested_route :  shape/compose/build,
+             suggested_reuse :  existing app ,
+             reasoning  :  reasoning statements}  ,
