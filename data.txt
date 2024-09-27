@@ -1,0 +1,43 @@
+for this suggestion 
+{area1 :
+            {type_of_use :  everyday/augment/transform,
+             type_of_app :  content/delivery/triage/end-to-end decisions,
+             quadrant_mapping :  Quadrant1/Quadrant2/Quadrant3  
+             reasoning :  reasoning statements,  } 
+
+card 
+ 
+what do you think is the volume of data the organisation has available ? 
+what do you think is the quality of data th... by Vikesh Morye
+Vikesh Morye
+3:53 pm
+what do you think is the quality of data the organisation has available ? 
+what do you think is the sensitivity of the... by Vikesh Morye
+Vikesh Morye
+3:53 pm
+what do you think is the sensitivity of the data that will be used ? 
+What do you think is the volume of data the organization has available for this application?
+Extensive data (petabytes or more)
+Large data volume (terabytes)
+Moderate data volume (gigabytes)
+Small but manageable data volume (megabytes)
+Limited data availability (kilobytes or less)
+ 
+What do you think is the quality of data the organization has available?
+Highly reliable
+Generally accurate
+Moderate but inconsistent
+Needs improvement
+Poor and unreliable
+What do you think is the sensitivity of the data that will be used?
+Highly sensitive (e.g., personally identifiable information)
+Sensitive (e.g., financial records)
+Moderately sensitive (e.g., internal business documents)
+Low sensitivity (e.g., public-facing content)
+Not sensitive (e.g., anonymized or aggregated data)
+What is the accuracy tolerance for the application's output for this use case?
+Zero tolerance for errors (critical systems)
+Very high accuracy required (above 95%)
+Moderate accuracy required (80-95%)
+Some tolerance for inaccuracies (60-80%)
+High tolerance for inaccuracies (below 60%)
