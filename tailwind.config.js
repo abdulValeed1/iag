@@ -52,7 +52,7 @@ module.exports = {
         danger: '#D34053',
         warning: '#FFA70B',
         'warm-red': '#f15f62',
-        'light-grey': "#EAE5DF",
+        'light-gray': "#EAE5DF",
         'dusky-teal': "#33647f",
       },
       fontSize: {
