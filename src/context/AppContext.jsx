@@ -8,7 +8,7 @@ const AppContext = createContext();
 export const AppProvider = ({ children }) => {
   const [defaultSuggestions, setDefaultSuggestions] = useState(suggestions);
   const [defaultRecommendedSuggestions, setDefaultRecommendedSuggestions] = useState([]);
-  const [resultValues, setResultValues] = useState([])
+  const [resultValues, setResultValues] = useState([]);
 
   const handleDefaultSuggestions = (suggetions) => {
     setDefaultSuggestions(suggetions);
@@ -19,6 +19,7 @@ export const AppProvider = ({ children }) => {
   }
 
   useEffect(()=>{
+    console.log("defaultSuggestions", defaultSuggestions)
     const recommended = defaultSuggestions.filter(suggestion => suggestion.recommended);
     setDefaultRecommendedSuggestions(recommended)
   },[defaultSuggestions]);
